@@ -18,7 +18,6 @@ public class HelloWorldController {
     @Inject
     HelloWordService helloWordService;
 
-
     @Get
     public List<HelloWorldDTO> get() {
         return helloWordService.findAll()
